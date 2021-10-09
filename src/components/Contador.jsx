@@ -21,9 +21,9 @@ export const Contador = () => {
         </h4>
 
         {/* Forma Uno */}
-        {/* <button onClick={()=> handleContador()} >Aumentar</button> */}
+        <button onClick={()=> handleContador()} >Aumentar</button>
         {/* Forma 2 */}
-        <button onClick={()=> setContador(contador+1)} >Aumentar</button>
+        {/* <button onClick={()=> setContador(contador+1)} >Aumentar</button> */}
 
         </>
     )
